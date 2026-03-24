@@ -1,3 +1,4 @@
+#alejandra cabrera - 1066921
 import copy
 from src.world_cup_csp import WorldCupCSP
 from src.data import TEAMS, GROUPS
@@ -80,3 +81,7 @@ def print_solution(solution):
         for team in teams_in_group:
             info = TEAMS[team]
             print(f"  - {team} ({info['conf']}, Bombo {info['pot']})")
+
+if __name__ == "__main__":
+    solution = run_solver(debug=True)
+    print_solution(solution)
