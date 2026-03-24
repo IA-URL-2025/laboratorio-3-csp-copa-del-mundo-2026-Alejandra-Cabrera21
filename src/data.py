@@ -1,6 +1,7 @@
 # Datos realistas de la Copa Mundial 2026 para 48 equipos
 # 12 equipos por bombo (Pot)
 # Confederaciones: UEFA, CONMEBOL, CONCACAF, AFC, CAF, OFC
+#alejandra cabrera - 1066921
 
 TEAMS = {
     # BOMBO 1 (Cabezas de serie)
@@ -46,18 +47,21 @@ TEAMS = {
     "Nigeria": {"conf": "CAF", "pot": 3},
 
     # BOMBO 4
-    "Mali": {"conf": "CAF", "pot": 4},
-    "Ivory Coast": {"conf": "CAF", "pot": 4},
-    "Qatar": {"conf": "AFC", "pot": 4},
-    "Jamaica": {"conf": "CONCACAF", "pot": 4},
-    "Honduras": {"conf": "CONCACAF", "pot": 4},
-    "El Salvador": {"conf": "CONCACAF", "pot": 4},
-    "New Zealand": {"conf": "OFC", "pot": 4},
-    "Uzbekistan": {"conf": "AFC", "pot": 4},
-    "Iraq": {"conf": "AFC", "pot": 4},
-    "UAE": {"conf": "AFC", "pot": 4},
-    "Cameroon": {"conf": "CAF", "pot": 4},
+    "Jordania": {"conf": "AFC", "pot": 4},
+    "Cabo Verde": {"conf": "CAF", "pot": 4},
     "Ghana": {"conf": "CAF", "pot": 4},
+    "Curazao": {"conf": "CONCACAF", "pot": 4},
+    "Haiti": {"conf": "CONCACAF", "pot": 4},
+    "New Zealand": {"conf": "OFC", "pot": 4},
+
+    # 🔥 PLAYOFFS (CLAVE DEL LAB)
+    "Playoff UEFA-A": {"conf": "UEFA", "pot": 4},
+    "Playoff UEFA-B": {"conf": "UEFA", "pot": 4},
+    "Playoff UEFA-C": {"conf": "UEFA", "pot": 4},
+    "Playoff UEFA-D": {"conf": "UEFA", "pot": 4},
+
+    "Playoff Inter-1": {"conf": "MULTI", "pot": 4},
+    "Playoff Inter-2": {"conf": "MULTI", "pot": 4},
 }
 
 GROUPS = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L"]
